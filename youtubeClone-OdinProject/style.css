@@ -1,0 +1,31 @@
+.navlist{
+    position: absolute;
+    width: 100%;
+
+}
+.navlist li{
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 10 px;
+    font-size: 20 px;
+
+}
+.navlist-right{
+    float: right;
+
+}
+.search{
+    float: right;
+    margin: 7 px;
+
+}
+.search button{
+    float: right;
+   /* padding: 5px 10px;*/
+    margin-right: 30 px;
+    font-size: 25 px;
+    border: none;
+    cursor: pointer;
+
+}
