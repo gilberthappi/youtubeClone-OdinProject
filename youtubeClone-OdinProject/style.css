@@ -38,18 +38,20 @@
 
 .video-wrapper {
 	margin: 2%;
-	width: 850px;
+	width: 95%;
 	height: 100px;
-	position: relative;
+	position: absolute;
+    display:block;
 	/*padding-bottom: 56.25%; /* 16:9 aspect ratio */
 }
 
 .video-wrapper iframe {
-	position: absolute;
+	/*position: relative;*/
 	top: 0;
 	left: 0;
-	width: 100%;
+	width: 850px;
 	height: 400px;
+	float: left;
 }
 div.header button {
 	cursor: pointer;
@@ -58,8 +60,41 @@ div.header button {
 	font-size: 40px;
 }
 .title {
-	margin-top: 320px;
+	margin-top: 450px;
 	margin-left: 25px;
+}
+.video-lists {
+	margin-top: 20px;
+	margin-left: 890px;
+	position: absolute;
+	display: block;
+}
+
+.videos img {
+	width: 150px;
+	height: 100px;
+	border-radius: 10%;
+	display: inline-block;
+	vertical-align: top;
+	position: absolute;
+}
+.videos p h3{
+   display: inline-block;
+   vertical-align: top;
+}
+.description {
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	margin-left: 170px;
+	padding: 1px;
+	margin-top: -10px;
+}
+h3 {
+	font-size: large;
+}
+.description p {
+	font-size: small;
 }
 
 
